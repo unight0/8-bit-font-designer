@@ -27,5 +27,5 @@
 
 ## Installation
   You will need SDL2 and make for compiling.  
-  Then run:
+  Then run make
   
