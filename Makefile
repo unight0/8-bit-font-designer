@@ -19,8 +19,8 @@ BIN_DIR = bin
 
 all:                                        
 	$(CC) -c $(SRC_DIR)/$(C_OBJS) $(C_OPT)
-	@if [ ! -d "bin" ]; then\
-		mkdir bin;\
+	@if [ ! -d $(BIN_DIR) ]; then\
+		mkdir $(BIN_DIR);\
 	fi
 	@mv $(L_OBJS) $(BIN_DIR)
 	$(CL) $(BIN_DIR)/$(L_OBJS) $(L_OPT) -o $(R_OBJ)
