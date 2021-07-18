@@ -16,14 +16,16 @@
   __i__*[size]* - change size of font. Default - 255  
   __q__*[no argument]* - exit  
 
-## Info:
+## Usage:
 * You can toggle pixel with space.
 * To move cursor you can use arrow keys.
 * Commands that you type will be outputed to console.
 * Symbol size is 8x8 pixels.
 * Maximum symbols count is 256(0...255).
 * You cannot access symbol with index > size.
-* __ATTENTION: font8.h is important file. You will need it to read font from file.__  
+
+  After you created and saved your font, you can move it to other location and import it from there using font8.h file.  
+
 
 ## Installation
   You will need SDL2 and make for compiling.  
