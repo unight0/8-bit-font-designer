@@ -3,7 +3,7 @@
 
 ## COMMANDS:
   Commands have two parts: command symbol(c, s, o, i, q) and argument.  
-  Command are **_NOT_** separated from argument.  
+  Commands are **_NOT_** separated from argument.  
 
 ###	Examples:
   c11: Command symbol - c, argument - 11.  
