@@ -1,18 +1,20 @@
-#8-bit font designer
+# 8-bit font designer
 
 ## COMMANDS:
 * Commands have two parts: command symbol(c, s, o, i, q) and argument.
 * Command are NOT separated from argument.
+
 ###	Examples:
 * c11: Command symbol - c, argument - 11.
 * i64: Command symbol - i, argument - 64.
 
-#### Available commands:
+### Available commands:
 * c[symbol number] - edit symbol
 * s[file name] - save font to file
 * o[file name] - open file
 * i[size] - change size of font. Default - 255
 * q[NO ARGUMENT] - exit
+
 ## INFO:
 * You can toggle pixel with space.
 * To move in the greed you can use arrow keys.
