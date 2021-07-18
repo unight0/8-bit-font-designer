@@ -7,7 +7,7 @@ COMMANDS:
 		c11: Command symbol - c, argument - 11.
 		i64: Command symbol - i, argument - 64.
 
-	Available commands:
+Available commands:
 		c[symbol number] - edit symbol
 		s[file name] - save font to file
 		o[file name] - open file
@@ -21,5 +21,5 @@ INFO:
 	Maximum symbols count is 256(0...255).
 	You cannot access symbol with index > size.
 
-	ATTENTION: font8.h is important file. You will need it to read font from file later.
+ATTENTION: font8.h is important file. You will need it to read font from file later.
 
