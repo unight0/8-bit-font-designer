@@ -1,12 +1,13 @@
-# 8-bit font designer
+8-bit font designer
+===================
 
 ## COMMANDS:
 * Commands have two parts: command symbol(c, s, o, i, q) and argument.
-* Command are NOT separated from argument.
+* Command are _NOT_ separated from argument.
 
 ###	Examples:
-* c11: Command symbol - c, argument - 11.
-* i64: Command symbol - i, argument - 64.
+1. c11: Command symbol - c, argument - 11.
+2. 4: Command symbol - i, argument - 64.
 
 ### Available commands:
 * c[symbol number] - edit symbol
@@ -23,5 +24,5 @@
 * Maximum symbols count is 256(0...255).
 * You cannot access symbol with index > size.
 
-ATTENTION: font8.h is important file. You will need it to read font from file later.
-
+ - ATTENTION: font8.h is important file. You will need it to read font from file later.
+ - ATTENTION: you need SDL2 library to compile this project
