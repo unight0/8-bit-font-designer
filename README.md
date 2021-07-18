@@ -24,7 +24,7 @@
 * Maximum symbols count is 256(0...255).
 * You cannot access symbol with index > size.
 
-  After you created and saved your font, you can move it to other location and import it from there using font8.h file.  
+  After you created and saved your font, you can move it to other location and import it from there using __*font8.h*__ file.  
 
 
 ## Installation
